@@ -2,7 +2,7 @@
 Pax is a high-level, general-purpose programming language with an intuitive syntax and powerful capabilities.
 
 # Documentation
-This document defines the Pax programming language and specifies requirements for implementations of Pax.
+This document defines the Pax programming language and specifies requirements for its implementations.
 
 ## Fundamentals
 A Pax program is a sequence of source code that contains declarations, executed on an open-source interpreter.
