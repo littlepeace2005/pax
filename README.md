@@ -25,6 +25,26 @@ Comments serve as in-code documentation that shall be ignored by the interpreter
 - Multi-line comment: <code>/* <i>comment</i> */</code>
 - Single-line comment: <code>// <i>comment</i></code>
 
+## Expressions
+An expression is a sequence of operators and operands that specifies a computation. Expression evaluation can result in a value and can casue side effects.
+
+### Literals
+Literals are the tokens that represent constants in the source code.
+
+#### Boolean literals
+- <code>true</code>
+- <code>false</code>
+
+#### Interger literals
+- Decimal: <i>```[0-9]+```</i>
+- Octal: <i>```0[oO][0-7]+```</i>
+- Hexdecimal: <i>```0[xX][0-9a-fA-F]+```</i>
+- Binary: <i>```0[bB][01]+```</i>
+
+#### Floating literals
+- Decimal: <i>```([0-9]*\.[0-9]+|[0-9]+\.[0-9]*)([eE][+-]?[0-9]+)?|[0-9]+[eE][+-]?[0-9]+```</i>
+- Hexdecimal: <i>```0[xX]([0-9a-fA-F]*\.[0-9a-fA-F]+|[0-9a-fA-F]+\.[0-9a-fA-F]*|[0-9a-fA-F]+)([pP][+-]?[0-9]+)?```</i>
+
 ## Statements
 Statements are fragments of a Pax program that shall be executed in sequence.
 
