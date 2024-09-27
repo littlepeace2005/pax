@@ -36,14 +36,18 @@ Literals are the tokens that represent constants in the source code.
 - <code>false</code>
 
 #### Interger literals
+An interger literal must be within the range of ```int```.
 - Decimal: <i>```[0-9]+```</i>
 - Octal: <i>```0[oO][0-7]+```</i>
 - Hexdecimal: <i>```0[xX][0-9a-fA-F]+```</i>
 - Binary: <i>```0[bB][01]+```</i>
 
 #### Floating literals
+A floating literal must be within the range of ```float```.
 - Decimal: <i>```([0-9]*\.[0-9]+|[0-9]+\.[0-9]*)([eE][+-]?[0-9]+)?|[0-9]+[eE][+-]?[0-9]+```</i>
 - Hexdecimal: <i>```0[xX]([0-9a-fA-F]*\.[0-9a-fA-F]+|[0-9a-fA-F]+\.[0-9a-fA-F]*|[0-9a-fA-F]+)([pP][+-]?[0-9]+)?```</i>
+- Infinity: ```inf```
+- QNaN: ```nan```
 
 ## Statements
 Statements are fragments of a Pax program that shall be executed in sequence.
